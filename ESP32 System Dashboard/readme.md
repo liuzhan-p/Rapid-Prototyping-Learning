@@ -3,19 +3,6 @@ A simple embedded systems project built with an **ESP32** and a **128×64 SSD130
 
 The dashboard continuously displays real-time system information from the ESP32, providing a lightweight monitoring interface. The project was developed and tested using the **Wokwi online simulator**, and the code is fully compatible with a physical ESP32 development board.
 
----
-
-## Preview
-
-### Dashboard
-
-![Dashboard](images/dashboard.png)
-
-### Circuit
-
-![Circuit](images/circuit.png)
-
----
 
 ## Features
 
@@ -68,10 +55,7 @@ ESP32-System-Dashboard/
 │
 ├── images/
 │   ├── dashboard.png
-│   ├── circuit.png
-│   └── demo.gif
 │
-└── LICENSE
 ```
 
 ---
@@ -106,29 +90,3 @@ The program can be uploaded directly to a physical ESP32 development board conne
 
 ---
 
-## Future Improvements
-
-- Wi-Fi status
-- IP address
-- RSSI signal strength
-- Memory usage visualization
-- Multi-page dashboard
-- Sensor integration (temperature, humidity, IMU)
-
----
-
-## What I Learned
-
-Through this project, I learned how to:
-
-- Build applications using the Arduino framework.
-- Communicate with peripherals using the I²C protocol.
-- Interface an SSD1306 OLED display with an ESP32.
-- Retrieve ESP32 system information using the ESP API.
-- Design a real-time embedded dashboard.
-
----
-
-## License
-
-This project is released under the MIT License.
