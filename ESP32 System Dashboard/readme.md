@@ -54,7 +54,7 @@ ESP32-System-Dashboard/
 ├── wokwi.toml
 │
 ├── images/
-│   ├── dashboard.png
+│   ├── simulation.png
 │
 ```
 
